@@ -1,7 +1,7 @@
 window.onload = function () {
     let emojis
     
-    fetch('https://raw.githubusercontent.com/Devorkk/EmojiParser/main/source/scripts/emoji-list.json')
+    fetch('https://github.com/Devorkk/EmojiParser/raw/main/source/scripts/emoji-list.json')
         .then(response => response.json())
         .then(json => emojis = json)
 
